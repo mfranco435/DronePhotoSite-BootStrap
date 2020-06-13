@@ -1,0 +1,162 @@
+/* Info
+
+*/
+
+/* Color references
+
+*/
+
+/* ========================== General ========================== */
+
+body {
+    margin-top: 50px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../img/tile.jpg') top left repeat;
+    position: relative;
+}
+
+/* ========================== Global ========================== */
+
+h1, h2, h3, h4, h5, h6, p {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+p .lead {
+    font-weight: normal;
+}
+
+/* ========================== Layout ========================== */
+
+.row + .row {
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .main-content {
+    padding: 40px 0;
+}
+
+/* ========================== Action  ========================== */
+
+#action {
+    background: #3E4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+#action p {
+    margin: 7px 0 0;
+}
+
+/* ========================== Example  ========================== */
+
+#example {
+    background: url('../img/mountain_scape.jpg') 50% 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+/* ========================== Specialty ========================== */
+
+#specialty {
+    background: white;
+}
+
+/* ========================== Contact ========================== */
+
+.address-block {
+    padding: 25px 14px 5px 14px;
+    margin-top: 30px;
+}
+
+.address-block button {
+    margin-top: 30px;
+}
+
+.address-block .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    border-left: 4px solid #ffac0c;
+    color: white;
+}
+
+.address-block address {
+    font-size: 14px;
+    color: white;
+}
+
+.address-background {
+    background: #666;
+    border-radius: 10px;
+}
+
+.address-background .btn-block {
+    width: 50% !important;
+}
+
+.address-background button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.address-social-icons {
+    padding-left: 14px;
+    padding-bottom: 25px;
+}
+
+/* ========================== Footer ========================== */
+
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    color: #777;
+}
+
+.address-footer {
+    padding: 5% 0;
+    font-size: 12px;
+}
+
+.footer-social-icons {
+    padding: 10% 0;
+}
+
+.copywrite {
+    padding: 15% 0;
+}
+
+/* ========================== Modal ========================== */
+
+.modal-header {
+    background-color: #3e4249;
+    color: white;
+}
+
+.modal-header .close {
+    color: #fff;
+    opacity: 1;
+}
+
+.mymodal-container {
+    padding: 30px;
+}
+
+/* ========================== Media Queries ========================== */
+
+@media screen and (max-width : 768px) {
+    #example iframe {
+        height: 240px;
+    }
+}
+
